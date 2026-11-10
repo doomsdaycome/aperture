@@ -29,6 +29,16 @@ quickshell -c background
 
 - Auto startup
 
+Hyprland:
+
+```lua
+
+hl.on("hyprland.start", function()
+  hl.exec_cmd("quickshell -c background")
+end)
+
+```
+
 ### Step 3: Configuration
 
 > [!IMPORTANT]
